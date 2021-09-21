@@ -27,8 +27,9 @@ function HomePage() {
 <>
   <div className="container">
 <h1>Spaceagram: Image sharing from the Frontier</h1>
-<h1>NASA Images source </h1>
-<p>Click the like button under the image</p>
+<h1>NASA Images source: Imported by APOD (Astronomy Picture of the Day) </h1>
+<p>Click the like button to like the photos</p>
+<p>Click the refresh button below to see and like more images.</p>
         <div className="cardFlex">
            
             {photos.length > 0 &&
