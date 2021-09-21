@@ -25,11 +25,18 @@ function HomePage() {
   return (
 
 <>
+<div className="stars"></div>
+<div className="stars2"></div>
   <div className="container">
-<h1>Spaceagram: Image sharing from the Frontier</h1>
-<h1>NASA Images source: Imported by APOD (Astronomy Picture of the Day) </h1>
-<p>Click the like button to like the photos</p>
-<p>Click the refresh button below to see and like more images.</p>
+<h1>Spaceagram</h1>
+<h2>Image sharing from the Frontier</h2>
+<h2>Imported by NASA'S APOD (Astronomy Picture of the Day) </h2>
+<p style={{color:"white"}}>This is a website that display photos from NASA's APOD API.</p>
+<p style={{color:"white"}}>1) You can like or unlike a photo by clicking the heart icon under the photo</p>
+<p style={{color:"white"}}>2) You can also load more photo by clicking the button at the bottom of the page</p>
+
+{/* <p>Click the like button to like the photos</p>
+<p>Click the refresh button below to see and like more images.</p> */}
         <div className="cardFlex">
            
             {photos.length > 0 &&
