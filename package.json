@@ -1,0 +1,8 @@
+{
+  "name": "spacegram_shopify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ishakantak/spacegram_shopify.git",
+  "author": "Isha <kantakisha@gmail.com>",
+  "license": "MIT"
+}

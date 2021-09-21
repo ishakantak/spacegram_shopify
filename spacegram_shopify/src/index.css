@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 3rem;
+  background-color: #237068;
+  text-align: center;
+}
+
+h2 {
+  color: #252525;
+}
+
+h1 {
+  color: #F0DFC8;
+  text-decoration: none;
+}
+
+/* .card {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  height: max(25vw, 250px);
+  width: max(25vw, 250px); 
+  box-shadow: 0 0 20px rgba(204, 204, 204, 0.596);
+  border-radius: 5%; 
+   border: rgba(255, 255, 255, 0.493) solid 5px; 
+  background-size: cover;
+  transition: transform 0.5s ease-in-out, border 0.5s ease-in-out,
+    background-image 1s ease-in-out;
+} */
+
+.card {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  background-color: white;
+  border-radius: 1px;
+  border: rgba(255, 255, 255, 0.493) solid 5px; 
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); 
+  /* border-spacing: 5rem; */
+  padding: 1rem;
+  width: 20rem;
+}
+
+/* .card {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  height: max(25vw, 250px);
+  width: max(25vw, 250px);
+  box-shadow: 0 0 20px rgba(204, 204, 204, 0.596);
+  border-radius: 5%;
+  border: rgba(255, 255, 255, 0.493) solid 5px;
+  background-size: cover;
+  transition: transform 0.5s ease-in-out, border 0.5s ease-in-out,
+    background-image 1s ease-in-out;
+} */
+
+.cardFlex {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.sync {
+  margin: 2rem;
+  height: 80px;
+  width: 80px;
+  border: #ffffff solid 4px;
+  padding: 10px;
+  border-radius: 20%;
+  transition: all 0.8s ease-in-out;
+}
+
+.sync:hover {
+  transform: rotate(360deg);
+}
+
+.load {
+  font-weight: 600;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.like {
+  height: 50px;
+  width: 50px;
+  transition: all 0.4s;
+  margin-left: 5px;
+}
+
+.like:hover {
+  transform: scale(1.1);
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  justify-content: top;
+}
+
+/* .card {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  height: max(25vw, 250px);
+  width: max(25vw, 250px); 
+  box-shadow: 0 0 20px rgba(204, 204, 204, 0.596);
+  border-radius: 5%; 
+   border: rgba(255, 255, 255, 0.493) solid 5px; 
+  background-size: cover;
+  transition: transform 0.5s ease-in-out, border 0.5s ease-in-out,
+    background-image 1s ease-in-out;
+} */
+
+
+
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 3rem;
+  background-color: #237068;
+  text-align: center;
+}
+
+h2 {
+  color: #252525;
+}
+
+h1 {
+  color: #F0DFC8;
+  text-decoration: none;
+}
+
+.btn {
+  font: inherit;
+  text-align: center;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #C7A18D;
+  color: white;
+  border: 1px solid #C7A18D;
+  margin: 0 1rem;
+}
+
+.btn:hover {
+  background-color: #9c1458;
+  border-color: #9c1458;
+}
+
+.btn--alt {
+  background-color: transparent;
+  color: #C7A18D;
+}
+
+.btn--alt:hover {
+  background-color: #f8dae9;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 20rem;
+}
+
+.cardFlex {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  justify-content: top;
+}
+
+.actions {
+  text-align: right;
+}
+
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.container{
+  text-align: center;
+  text-decoration: none;
+}
+
+.sync {
+  margin: 2rem;
+  height: 80px;
+  width: 80px;
+  border: #ffffff solid 4px;
+  padding: 10px;
+  border-radius: 20%;
+  transition: all 0.8s ease-in-out;
+}
+
+.sync:hover {
+  transform: rotate(360deg);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+ */
