@@ -20,7 +20,6 @@
 
 
 ## Features
-List the ready features here:
 - There is an animation of the "like" action with the heart icon
 - There is a loading state which appeats when we wait for NASA's API to return data
 - There is a button to press to load more photos
