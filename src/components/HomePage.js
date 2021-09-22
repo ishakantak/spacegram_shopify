@@ -35,23 +35,19 @@ function HomePage() {
             {/* <p>Click the like button to like the photos</p>
             <p>Click the refresh button below to see and like more images.</p> */}
             <div className="cardFlex">
-
-            {photos.length > 0 &&
-            photos.map(
-            (photo) =>
-            photo.media_type === "image" && (
-            <CardList
-            title={photo.title}
-            date={photo.date}
-            url={photo.url}
-            key={photo.title}
-            // explanation={photo.explanation}
-            />
-            )
-            )}
-            {loading && <div className="load">Loading...</div>}
-            </div>
-            <div className="sync"> <img src={sync} alt="load more" onClick={handleImages}></img> </div>
+              {photos.length > 0 &&
+              photos.map((photo) =>
+                photo.media_type === "image" && (
+                <CardList
+                title={photo.title}
+                date={photo.date}
+                url={photo.url}
+                key={photo.title}
+                // explanation={photo.explanation}
+                />))}
+              {loading && <div className="load">Loading...</div>}
+              </div>
+              <div className="sync"> <img src={sync} alt="load more" onClick={handleImages} /> </div>
             </div>
             </>);
 }
