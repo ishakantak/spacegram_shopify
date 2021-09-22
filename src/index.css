@@ -5,17 +5,23 @@
 body {
   font-family: sans-serif;
   margin: 3rem;
-  background-color: #237068;
+  background-color: #000505;
+  
   text-align: center;
 }
 
 h2 {
-  color: #252525;
+  color: #FEFCFD;
 }
 
 h1 {
-  color: #F0DFC8;
+  size: 65px;
+  color: #BFCDE0;
   text-decoration: none;
+}
+
+.headingtwo {
+  color: #FEFCFD;
 }
 
 .title {
@@ -28,42 +34,35 @@ h1 {
   font-style: italic;
 }
 
-/* .card {
-  margin-left: 5rem;
-  margin-right: 5rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  height: max(25vw, 250px);
-  width: max(25vw, 250px); 
-  box-shadow: 0 0 20px rgba(204, 204, 204, 0.596);
-  border-radius: 5%; 
-   border: rgba(255, 255, 255, 0.493) solid 5px; 
-  background-size: cover;
-  transition: transform 0.5s ease-in-out, border 0.5s ease-in-out,
-    background-image 1s ease-in-out;
-} */
 
 .card {
-  margin-left: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: auto;
+  width: 50%;
+  height: 50%;
+  /* margin-left: 5rem;
   margin-right: 5rem;
   margin-bottom: 2rem;
-  margin-top: 2rem;
-  background-color: #703423;
+  margin-top: 2rem; */
+  background-color: #5D5D81;
   border-radius: 1px;
   /* border: rgba(255, 255, 255, 0.493) solid 5px;  */
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); 
   /* border-spacing: 5rem; */
   padding: 1rem;
-  width: 20rem;
+  /* width: 20rem; */
 }
 
-.cardFlex {
+/* .cardFlex {
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 1rem;
-}
+} */
 
 .sync {
   margin: 2rem;
@@ -84,6 +83,7 @@ h1 {
   font-size: 30px;
   width: 100%;
   text-align: center;
+  color: #FFFFFF;
 }
 
 .like {

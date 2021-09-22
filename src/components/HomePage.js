@@ -30,10 +30,10 @@ function HomePage() {
   <div className="container">
 <h1>Spaceagram</h1>
 <h2>Image sharing from the Frontier</h2>
-<h2>Imported by NASA'S APOD (Astronomy Picture of the Day) </h2>
-<p style={{color:"white"}}>This is a website that display photos from NASA's APOD API.</p>
-<p style={{color:"white"}}>1) You can like or unlike a photo by clicking the heart icon under the photo</p>
-<p style={{color:"white"}}>2) You can also load more photo by clicking the button at the bottom of the page</p>
+<h3 className="headingtwo">Imported by NASA'S APOD (Astronomy Picture of the Day) </h3>
+{/* <p style={{color:"white"}}>This is a website that display photos from NASA's APOD API.</p> */}
+{/* <p style={{color:"white"}}>1) You can like or unlike a photo by clicking the heart icon under the photo</p>
+<p style={{color:"white"}}>2) You can also load more photo by clicking the button at the bottom of the page</p> */}
 
 {/* <p>Click the like button to like the photos</p>
 <p>Click the refresh button below to see and like more images.</p> */}

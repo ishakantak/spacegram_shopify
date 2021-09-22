@@ -23,7 +23,6 @@ const CardList = ({ title, date, url }) => {
           alt="like button"
           onClick={() => setLiked((curr) => !curr)}
         ></img>
-
       </div>
     </div> 
 
