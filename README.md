@@ -1,6 +1,6 @@
 # Spaceagram
 > This is a Front End Developer Challenge Winter 2022 for Shopify. 
-> Live demo: https://614a8b9f41f2e600ac150006--relaxed-noether-abb911.netlify.app/
+> Live demo: https://spaceagram.netlify.app/
 
 ## Table of Contents
 * [General Info](#general-information)
